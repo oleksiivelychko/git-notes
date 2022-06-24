@@ -17,3 +17,8 @@ Undo commit(-s):
 ```
 git reset HEAD~1 && git push -f
 ```
+
+Prettify git log output:
+```
+git log --pretty=oneline --abbrev-commit
+```
